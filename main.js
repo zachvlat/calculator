@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron');
+const { homedir } = require('os');
 const path = require('path');
 const url = require('url');
 
@@ -6,12 +7,13 @@ let mainWindow;
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 365,
-    height: 460,
+    width: 380,
+    height: 621,
     webPreferences: {
       nodeIntegration: true,
     },
-	resizable: false, // Set resizable option to false
+	resizable: false,
+  autoHideMenuBar: true,
   });
   
   mainWindow.loadURL(
