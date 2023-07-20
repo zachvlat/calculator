@@ -11,7 +11,6 @@ The Calculator App is a simple calculator web application built using Electron. 
 - Addition, subtraction, multiplication, and division functionality.
 - Clear button to reset the input field.
 - Keyboard support for numerical input and calculation triggering.
-- Responsive layout for different screen sizes.
 
 ## Screenshots
 
