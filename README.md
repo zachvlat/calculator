@@ -41,10 +41,6 @@ If you want to run the app locally for development or contribute to the project,
 - Electron - Framework for building cross-platform desktop apps with web technologies.
 - HTML, CSS, JavaScript - Frontend technologies for building the user interface and app logic.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Author
 
 - Your Name
