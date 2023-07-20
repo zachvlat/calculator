@@ -15,7 +15,7 @@ The Calculator App is a simple calculator web application built using Electron. 
 
 ## Screenshots
 
-![Calculator Screenshot](screenshot.png)
+![Calculator Screenshot]([screenshot.png](https://cdn.discordapp.com/attachments/925494177670758461/1131624950067896371/image.png))
 
 ## How to Use
 
