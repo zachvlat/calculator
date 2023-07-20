@@ -6,13 +6,14 @@ let mainWindow;
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 365,
+    height: 460,
     webPreferences: {
       nodeIntegration: true,
     },
+	resizable: false, // Set resizable option to false
   });
-
+  
   mainWindow.loadURL(
     url.format({
       pathname: path.join(__dirname, 'index.html'),
@@ -23,6 +24,11 @@ function createWindow() {
 
   mainWindow.on('closed', function () {
     mainWindow = null;
+  });
+
+  // Event listener to re-focus on #display whenever the window loses focus
+  mainWindow.on('blur', () => {
+    mainWindow.webContents.executeJavaScript('document.getElementById("display").focus();');
   });
 }
 

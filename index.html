@@ -6,7 +6,7 @@
 </head>
 <body>
   <div class="calculator">
-    <input id="display" type="text" readonly>
+    <input id="display" type="text" autofocus>
     <div class="buttons">
       <div class="row">
         <button onclick="appendToDisplay('7')">7</button>
@@ -33,7 +33,7 @@
         <button onclick="appendToDisplay('+')">+</button>
       </div>
       <div class="row">
-        <button onclick="clearDisplay()">C</button>
+        <button onclick="clearDisplay()" style="background-color: hotpink;">C</button>
       </div>
     </div>
   </div>

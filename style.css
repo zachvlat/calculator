@@ -1,17 +1,25 @@
+* {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
 .calculator {
     max-width: 300px;
-    margin: 0 auto;
+    margin: 0;
     padding: 20px;
-    background-color: #f2f2f2;
+    background-color: #176B87;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
   
   #display {
     width: 100%;
-    padding: 10px;
+    padding: 15px 0px 15px 0px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   }
   
   .buttons {
@@ -21,16 +29,30 @@
   }
   
   button {
-    padding: 10px;
+    padding: 15px 0px 15px 0px;
     font-size: 16px;
-    background-color: #ccc;
+    background-color: #DAFFFB;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
+    margin-top: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
   
   button:hover {
     background-color: #ddd;
   }
   
+
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
