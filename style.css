@@ -16,6 +16,7 @@
   }
   
   #display {
+    outline: none;
     width: 100%;
     padding: 15px 0px 15px 0px;
     margin-bottom: 41px;

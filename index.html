@@ -3,40 +3,46 @@
 <head>
   <title>Calculator</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <div class="calculator">
     <input id="display" type="text" autofocus>
     <div class="buttons">
       <div class="row">
-        <button onclick="appendToDisplay('7')">7</button>
-        <button onclick="appendToDisplay('4')">4</button>
-        <button onclick="appendToDisplay('1')">1</button>
-        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="appendToDisplay('7')"><i class="fa-solid fa-1 fa-2xl"></i></button>
+        <button onclick="appendToDisplay('4')"><i class="fa-solid fa-4 fa-2xl"></i></button>
+        <button onclick="appendToDisplay('1')"><i class="fa-solid fa-1 fa-2xl"></i></button>
+        <button onclick="appendToDisplay('0')"><i class="fa-solid fa-0 fa-2xl"></i></button>
       </div>
       <div class="row">
-        <button onclick="appendToDisplay('8')">8</button>
-        <button onclick="appendToDisplay('5')">5</button>
-        <button onclick="appendToDisplay('2')">2</button>
-        <button onclick="appendToDisplay('*')">*</button>
+        <button onclick="appendToDisplay('8')"><i class="fa-solid fa-8 fa-2xl"></i></button>
+        <button onclick="appendToDisplay('5')"><i class="fa-solid fa-5 fa-2xl"></i></button>
+        <button onclick="appendToDisplay('2')"><i class="fa-solid fa-2 fa-2xl"></i></button>
+        <button onclick="appendToDisplay('*')"><i class="fa-solid fa-xmark fa-2xl"></i></button>
       </div>
       <div class="row">
-        <button onclick="appendToDisplay('9')">9</button>
-        <button onclick="appendToDisplay('6')">6</button>
-        <button onclick="appendToDisplay('3')">3</button>
-        <button onclick="appendToDisplay('-')">-</button>
+        <button onclick="appendToDisplay('9')"><i class="fa-solid fa-9 fa-2xl"></i></button>
+        <button onclick="appendToDisplay('6')"><i class="fa-solid fa-6 fa-2xl"></i></button>
+        <button onclick="appendToDisplay('3')"><i class="fa-solid fa-3 fa-2xl"></i></button>
+        <button onclick="appendToDisplay('-')"><i class="fa-solid fa-minus fa-2xl"></i></button>
       </div>
       <div class="row">
-        <button onclick="appendToDisplay('/')">/</button>
-        <button onclick="appendToDisplay('.')">.</button>
-        <button onclick="calculate()">=</button>
-        <button onclick="appendToDisplay('+')">+</button>
+        <button onclick="appendToDisplay('/')"><i class="fa-solid fa-divide fa-2xl"></i></button>
+        <button onclick="appendToDisplay('.')"><i class="fa-solid fa-circle fa-2xs"></i></button>
+        <button onclick="calculate()"><i class="fa-solid fa-equals fa-2xl"></i></button>
+        <button onclick="appendToDisplay('+')"><i class="fa-solid fa-plus fa-2xl"></i></button>
       </div>
       <div class="row">
-        <button onclick="clearDisplay()" style="background-color: hotpink;">C</button>
+        <button onclick="clearDisplay()" style="background-color: hotpink;"><i class="fa-solid fa-c fa-2xl"></i></button>
       </div>
     </div>
   </div>
   <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+      integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
