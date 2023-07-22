@@ -43,7 +43,7 @@ If you want to run the app locally for development or contribute to the project,
 ## Author
 
 - Your Name
-- GitHub: [Your GitHub Profile](https://github.com/yourusername)
+- GitHub: [Your GitHub Profile](https://github.com/zachvlat)
 
 Feel free to reach out for questions or feedback!
 
